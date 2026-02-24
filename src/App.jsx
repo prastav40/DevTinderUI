@@ -10,6 +10,7 @@ import Body from "./components/Body"
 import ProfileEdit from "./components/ProfileEdit"
 import Connection from "./components/Connection"
 import ConnectionRequest from "./components/connectionrequest"
+import Signup from "./components/SignUp"
 
 function App() {
   return (
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
       {
         path:"/ConnectionRequest",
         element:<ConnectionRequest />
+      },
+      {
+        path:"/Signup",
+        element:<Signup />
       }
     ]
 
