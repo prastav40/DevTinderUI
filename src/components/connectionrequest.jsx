@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import axios from "axios";
 import { BASEURL } from "../../utils/constant";
-import { addUser } from "../../utils/userSlice";
+import { addUser } from "../../utils/userslice";
 
 const ConnectionRequest = () => {
     const dispatch = useDispatch();

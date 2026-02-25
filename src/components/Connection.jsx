@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import axios from "axios";
 import { BASEURL } from "../../utils/constant";
 import { Link } from "react-router-dom";
-import { addUser } from "../../utils/userSlice";
+import { addUser } from "../../utils/userslice";
 
 const Connection = () => {
     const dispatch = useDispatch();

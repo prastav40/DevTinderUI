@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Card from "./Card";
 import axios from "axios";
 import { BASEURL } from "../../utils/constant";
-import { addUser } from "../../utils/userSlice";
+import { addUser } from "../../utils/userslice";
 import { useNavigate } from "react-router-dom";
 
 const ProfileEdit = () => {
