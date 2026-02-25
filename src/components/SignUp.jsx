@@ -69,9 +69,8 @@ const Signup = () => {
                             <span className="text-3xl text-white">🚀</span>
                         </div>
                         <h2 className="text-4xl font-black text-white tracking-tight italic">
-                            Create <span className="text-primary">Dev.Account()</span>
+                            Create <span className="text-primary">Dev Account</span>
                         </h2>
-                        <p className="text-slate-400 mt-2 font-medium italic">Join the local cluster.</p>
                     </header>
 
                     {error && (
@@ -142,7 +141,7 @@ const Signup = () => {
                         onClick={handleSignup}
                         disabled={loading}
                     >
-                        {loading ? "" : "Initialize Profile"}
+                        {loading ? "" : "Sign Up"}
                     </button>
 
                     <p className="text-center mt-8 text-slate-500 text-sm font-medium">

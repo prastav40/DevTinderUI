@@ -51,7 +51,7 @@ const Body = () => {
                     <span className="absolute inset-0 flex items-center justify-center text-2xl">🔥</span>
                 </div>
                 <div className="text-center space-y-2">
-                    <p className="text-xl font-black text-white italic tracking-tighter">DevTinder Website</p>
+                    <p className="text-xl font-black text-white italic tracking-tighter">DevTinder </p>
                     <p className="text-xs font-mono text-slate-500 animate-pulse uppercase tracking-[0.2em]">
                         Initialising Environment...
                     </p>

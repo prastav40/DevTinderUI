@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import userdefault from "./userSlice";
+import userdefault from "./userslice";
 import feeddefault from "./feedslice"
 import connectiondefault from "./conectionslice";
 import connectionrequestdefault, { showconnectionrequest } from "./connectionrequestslice";
